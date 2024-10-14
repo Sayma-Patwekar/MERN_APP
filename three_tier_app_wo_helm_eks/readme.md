@@ -22,3 +22,14 @@ kubectl logs -l role=database
 ####################################################################################################################################################################
 AWS EKS
 1. 
+
+
+
+* ingress:
+for minikube :
+```
+$ minikube addons enable ingress
+$ kubectl get pods -n ingress-nginx
+```
+minikube ip
+minikube ssh

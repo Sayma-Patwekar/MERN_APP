@@ -18,7 +18,7 @@ $ helm upgrade <helm-chart-name> ./<helm-chart-name>
 
 4. Uninstall helm charts
 ```
-$ helm install <helm-chart-name>
+$ helm uninstall <helm-chart-name>
 ```
 # note: delete in sequence
     frintend -> backend -> database
